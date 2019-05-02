@@ -1,0 +1,34 @@
+/home/pi/.virtualenvs/dk/bin/python, location of python
+
+/home/pi/env/lib/python3.5/site-packages/donkeycar/ location of all the code
+sudo nano /home/pi/env/lib/python3.5/site-packages/donkeycar/parts/web_controller/templates/static/main.js
+
+
+sudo /home/pi/.virtualenvs/dk/bin/donkey calibrate --channel 13 or 18
+to calibrate
+
+ 
+sudo /home/pi/.virtualenvs/dk/bin/python manage.py drive
+to start web server
+ 
+Steering pin - 18
+Steering left - 63
+Steering right - 83
+
+Throttle pin - 13
+Forward - 77
+Stopped - 73
+Reverse? - 65
+
+WITH PCA:
+
+Steering pin - 1
+Steering left - 320
+Steering right - 440
+Steering middle - 375
+
+Throttle - 400
+Stopped - 370
+Reverse - 3
+
+TRAINING IS LOCATED IN ~/mycar/tub
